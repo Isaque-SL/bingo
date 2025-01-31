@@ -45,26 +45,61 @@ if nivel==1:
   colunas = 3
 
   print("Jogador 1:")
-  cartelajog1 = criar_cartela(linhas,colunas)
+  jog1 = criar_cartela(linhas,colunas)
   for i in range(linhas):
     print('|', end=" ")
     for j in range(colunas):
-        print(cartelajog1[i][j], end=" ")
+        print(jog1[i][j], end=" ")
     print('|')
   print("")
 
   print("Jogador 2:")
-  bingo = criar_cartela(linhas,colunas)
+  jog2= criar_cartela(linhas,colunas)
   for i in range(linhas):
     print('|', end=" ")
     for j in range(colunas):
-        print(bingo[i][j], end=" ")
+        print(jog2[i][j], end=" ")
     print('|')
 
 if nivel==2:
   linhas = 3
   colunas = 4
-  bingo = criar_cartela(linhas,colunas)
+  
+  print("Jogador 1:")
+  jog1 = criar_cartela(linhas,colunas)
+  for i in range(linhas):
+    print('|', end=" ")
+    for j in range(colunas):
+        print(jog1[i][j], end=" ")
+    print('|')
+  print("")
+
+  print("Jogador 2:")
+  jog2= criar_cartela(linhas,colunas)
+  for i in range(linhas):
+    print('|', end=" ")
+    for j in range(colunas):
+        print(jog2[i][j], end=" ")
+    print('|')
+  print("")
+
+  print("Jogador 3:")
+  jog3 = criar_cartela(linhas,colunas)
+  for i in range(linhas):
+    print('|', end=" ")
+    for j in range(colunas):
+        print(jog3[i][j], end=" ")
+    print('|')
+  print("")
+
+  print("Jogador 4:")
+  jog4= criar_cartela(linhas,colunas)
+  for i in range(linhas):
+    print('|', end=" ")
+    for j in range(colunas):
+        print(jog4[i][j], end=" ")
+    print('|')
+  print("")
   
 
 
